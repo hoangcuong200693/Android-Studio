@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dhcn"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:text="Phần mềm HaUI Soft được thiết kế dành riêng cho sinh viên Đại Học Công Nghiệp Hà Nội ,cho phép tra cứu Lịch Thi,Kết Quả Thi,Kết Quả Học Tập,Xem tin tức trang chủ http://haui.edu.vn\n \nPhần mềm chỉ hoạt động khi có kết nối Internet\n\nĐể tra cứu thông tin lịch thi,kết quả thi,kết quả học tập bạn hãy vuốt qua trái hoặc qua phải để chọn và nhập mã sinh viên ,sau đó bấm nút tìm kiếm\n\nTiện ích quản lí mã sinh viên cho phép tra cứu nhanh chóng\n\nĐể nhận thống tin cập nhật điểm tự động bạn hãy vào phần cài đặt chọn bật nhận thông báo và có thể tùy chỉnh thời gian tự động cập nhật\n\n Chức năng bảo mật giúp bạn tránh người khác dùng điện thoại tra cứu thông tin cá nhân của mình, để bật chế đố bảo mật bạn vào cài đặt và chon bật bảo mật \n\nĐể truy cập vào trang chủ bạn hãy chọn biểu tượng trang chủ trên thanh tiêu đề\n\nĐề phần mềm được hoàn thiện hơn bạn hãy phản hồi lại ý kiến cho tôi bằng cách chọn biểu tượng feedback trong mục cài đặt\n\n Nếu bạn thấy phần mềm có ích đừng ngần ngại chia sẻ cho bạn bè bằng cách chọn chức năng Share,phần mềm sẽ cho phép bạn chia sẻ qua facebook đến những người bạn của bạn\n\nCảm ơn đã sử dụng phần mềm của tôi !!!\nMọi chi tiết liên hệ :\nMail: smil30ns4d@gmail.com\nPhone:01656738962\nFacebook:http://facebook.com/eo.cuong"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+    
+    
+
+</LinearLayout>

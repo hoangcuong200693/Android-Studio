@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_action_share"
+        android:showAsAction="always"
+        android:orderInCategory="1"
+        android:title="Share"/>
+    
+        <item
+        android:id="@+id/menu_xemtheolop"
+        android:icon="@drawable/ic_action_group"
+        android:showAsAction="always"
+        android:orderInCategory="2"
+        android:title="Xem theo lớp"/>
+    
+        
+            <item
+        android:id="@+id/menu_chon"
+        android:icon="@drawable/ic_action_overflow_d"
+        android:showAsAction="always"
+        android:orderInCategory="3"
+        android:title="Chọn"/>
+        
+
+</menu>

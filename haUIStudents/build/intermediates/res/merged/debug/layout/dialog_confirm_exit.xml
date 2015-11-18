@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+       
+        android:paddingTop="13dp" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+      android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/iconhaui" />
+
+            <TextView
+                android:id="@+id/tv_dialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingLeft="6dp"
+                android:text="Bạn có muốn thoát chương trình không ?"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+        
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:padding="5dp"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/btn_ok_exit"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+              android:background="@drawable/btn_dialog"
+                android:text="OK" />
+
+            <Button
+                android:id="@+id/btn_cancel_exit"
+                android:layout_height="50dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="1"
+               android:background="@drawable/btn_dialog"
+                android:text="Cancel" />
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/DATA/Android%20Project/Android%20Studio/haUIStudents/src/main/res/layout/dialog_confirm_exit.xml -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle">
+            <solid android:color="#A8FFFF"/>
+        </shape>
+    </item>
+    
+    <item >
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+
+</selector>
+<!-- From: file:/DATA/Android%20Project/Android%20Studio/haUIStudents/src/main/res/drawable/tab_button.xml -->

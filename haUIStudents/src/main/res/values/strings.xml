@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="diemA">#FF000B</color>
+    <color name="diemB">#0004FF</color>
+    <color name="diemC">#D329D6</color>
+    <color name="diemD">#00A857</color>
+    <color name="diemF">#A8A400</color>
+    <color name="green">#228654</color>
+    <color name="red">#EA151E</color>
+    <color name="orange">#FB5B04</color>
+    <color name="xanhdatroi">#23A8E0</color>
+      <color name="white">#ffffff</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color> 
+
+    <string name="app_name">HaUI Students </string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="st_arr">
+        <item>30 phút</item>
+        <item>1 tiếng</item>
+        <item>1 tiếng 30 phút</item>
+        <item>2 tiếng</item>
+        <item>2 tiếng 30 phút</item>
+        <item>3 tiếng</item>
+    </string-array>
+    <string-array name="int_arr">
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>5400000</item>
+        <item>7200000</item>
+        <item>9000000</item>
+        <item>10800000</item>
+    </string-array>
+
+</resources>

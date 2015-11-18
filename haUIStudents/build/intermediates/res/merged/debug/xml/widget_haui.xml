@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="300dp"
+    android:minHeight="144dp"
+    android:initialLayout="@layout/widget"
+    android:updatePeriodMillis="1000"
+    
+     >
+    
+
+</appwidget-provider>
+<!-- From: file:/DATA/Android%20Project/Android%20Studio/haUIStudents/src/main/res/xml/widget_haui.xml -->

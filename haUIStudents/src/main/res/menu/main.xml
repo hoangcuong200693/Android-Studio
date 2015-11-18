@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="always"
+        android:orderInCategory="1"
+        android:title="Refresh"/>
+    
+        <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="always"
+        android:orderInCategory="2"
+        android:title="Tìm"/>
+    
+        
+            <item
+        android:id="@+id/menu_chon"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="always"
+        android:orderInCategory="3"
+        android:title="Chọn"/>
+
+</menu>

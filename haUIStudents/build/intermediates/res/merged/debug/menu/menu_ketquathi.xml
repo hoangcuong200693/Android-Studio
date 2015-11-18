@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_shareKQT"
+        android:icon="@drawable/ic_action_share"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="Share"/>
+    <item
+        android:id="@+id/menu_xemtheolop"
+        android:icon="@drawable/ic_action_group"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="Xem theo lớp"/>
+    <item
+        android:id="@+id/menu_chon"
+        android:icon="@drawable/ic_action_overflow_d"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Chọn"/>
+</menu>
+<!-- From: file:/DATA/Android%20Project/Android%20Studio/haUIStudents/src/main/res/menu/menu_ketquathi.xml -->

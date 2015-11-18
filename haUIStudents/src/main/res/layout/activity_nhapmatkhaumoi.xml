@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mât khẩu mới" />
+
+    <EditText
+        android:id="@+id/edt_mk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_tb_blue"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="8dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu xác nhận" />
+
+    <EditText
+        android:id="@+id/edt_xacnhan_mk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_tb_blue"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="8dp" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp" >
+
+        <Button
+            android:id="@+id/bt_OK_mk"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/border_tb_red"
+            android:padding="5dp"
+            android:layout_height="50dp"
+            android:text="Đồng ý" />
+
+        <Button
+            android:id="@+id/btn_Cancel_mk"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/border_tb_red"
+            android:padding="5dp"
+            android:text="Hủy" />
+    </TableRow>
+
+</LinearLayout>

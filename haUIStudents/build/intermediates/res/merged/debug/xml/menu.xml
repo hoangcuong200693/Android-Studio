@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Thông báo" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="check_thongbaoLichThi" 
+            android:order="0"
+              android:summaryOff="Đã tắt thông báo"
+            android:summaryOn="Đã bật thông báo"
+            android:title="Thông báo lịch thi"
+            />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="check_thongbao"
+            android:order="1"
+            android:summaryOff="Đã tắt thông báo"
+            android:summaryOn="Đã bật thông báo"
+            android:title="Thông báo điểm thi" />
+        
+         <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="check_thongbaoKQHT"
+            android:order="2"
+            android:summaryOff="Đã tắt thông báo"
+            android:summaryOn="Đã bật thông báo"
+            android:title="Thông báo kết quả HT" />
+
+        <ListPreference
+           
+            android:entries="@array/st_arr"
+            android:entryValues="@array/int_arr"
+            android:key="time"
+            android:order="3"
+            android:summary="Chọn thời gian tự động cập nhật"
+            android:title="Thời gian cập nhật" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Bảo mật" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_matKhau"
+            android:order="2"
+            android:summaryOff="Đã tắt bảo mật"
+            android:summaryOn="Đã bật bảo mật"
+            android:title="Bật chế độ bảo mật" />
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/DATA/Android%20Project/Android%20Studio/haUIStudents/src/main/res/xml/menu.xml -->

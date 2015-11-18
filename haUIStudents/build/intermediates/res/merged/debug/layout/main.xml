@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            tools:context=".MainActivity" >
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:background="#000000" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:paddingTop="2dp" >
+
+        <LinearLayout
+            android:id="@+id/layout_LichThi"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_button"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/focus_lichthi"
+                android:layout_width="fill_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/green" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/iconlichthi" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Lịch thi" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#3D5B6B" />
+
+        <LinearLayout
+            android:id="@+id/layout_KetQuaThi"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_button"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/focus_ketquathi"
+                android:layout_width="fill_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/blue" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/iconketquathi" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Kết quả thi" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#3D5B6B" />
+
+        <LinearLayout
+            android:id="@+id/layout_KQHT"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_button"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/focus_ketquaht"
+                android:layout_width="fill_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/red" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/iconkqht" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Kết quả HT" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#3D5B6B" />
+
+        <LinearLayout
+            android:id="@+id/layout_TichLuy"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_button"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/focus_tichluy"
+                android:layout_width="fill_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/orange" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icontichluy" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tích lũy" />
+        </LinearLayout>
+    </TableRow>
+
+</RelativeLayout><!-- From: file:/DATA/Android%20Project/Android%20Studio/haUIStudents/src/main/res/layout/main.xml -->

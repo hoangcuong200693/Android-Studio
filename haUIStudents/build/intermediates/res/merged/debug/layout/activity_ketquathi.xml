@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <TableRow
+        android:id="@+id/layoutInputKQT"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp" >
+
+        <TableRow
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_tb_blue" >
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView1_KetQuaThi"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:hint="Nhập mã sinh viên"
+                android:maxLength="10"
+                android:numeric="integer"
+                android:textColor="#000000"
+                android:textSize="21dp"
+                android:textStyle="bold" >
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <ImageButton
+                android:id="@+id/imgBtn_delete_ketquathi"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="4"
+                android:background="#FFFFFF"
+                android:scaleType="centerInside"
+                android:src="@drawable/delete" />
+        </TableRow>
+
+        <ImageButton
+            android:id="@+id/imgBtn_xemKetQuaThi"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="5"
+            android:background="@drawable/bg_btn_search_blue"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_search" />
+    </TableRow>
+
+    <RelativeLayout
+        android:id="@+id/Layout_KetQuaThi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutInputKQT" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/border_tb_blue"
+            android:orientation="vertical"
+            android:padding="7dp" >
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_weight="2"
+                    android:text="Họ và tên SV: " />
+
+                <TextView
+                    android:id="@+id/tv_hotenSV_KetQuaThi"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_weight="2"
+                    android:text="Mã SV: " />
+
+                <TextView
+                    android:id="@+id/tv_MaSV_KetQuaThi"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_weight="2"
+                    android:text="Lớp: " />
+
+                <TextView
+                    android:id="@+id/tv_lop_KetQuaThi"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_timeKetQuaThi"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/linearLayout1"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="update by xxxx"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp" />
+
+        <ListView
+            android:id="@+id/list_KetQuaThi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_timeKetQuaThi"
+            android:background="@drawable/border_tb_blue"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="10dp" >
+        </ListView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearProcessLoading_KetQuaThi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/background_sprint_dialog"
+            android:max="100"
+            android:secondaryProgress="0" />
+
+        <TextView
+            android:id="@+id/txttitleprocess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="Đang tải kết quả thi..."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_bg_KetQuaThi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutInputKQT"
+        android:background="@drawable/bg_dhcn"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_Bg_KetQuaThi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0002A8"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_reload_ketquathi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Bg_LichThi"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_tb_blue"
+                android:padding="15dp"
+                android:text="Tải lại"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/DATA/Android%20Project/Android%20Studio/haUIStudents/src/main/res/layout/activity_ketquathi.xml -->

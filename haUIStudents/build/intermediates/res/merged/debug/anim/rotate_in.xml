@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<set xmlns:android="http://schemas.android.com/apk/res/android">  
+   <alpha android:fromAlpha="0.0" android:toAlpha="1.0" android:duration="500" />  
+   <rotate android:fromDegrees="90" android:toDegrees="0" android:pivotX="-25%" />
+</set><!-- From: file:/DATA/Android%20Project/Android%20Studio/haUIStudents/src/main/res/anim/rotate_in.xml -->

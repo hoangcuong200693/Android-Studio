@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-3ad8ef2d0ea7760cad7bf46b5c23c2dcde5aadf4.jar" />
+    </item>
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/classes-559d466058ec166a3b1043c2e69a450192dd951f.jar" />
+    </item>
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/exploded-aar/com.jeremyfeinstein.slidingmenu/library/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0e4072fd48238419f424a112fdeb828d91f69e1a">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/classes-91a30a051f7dfbce1916a7daf91bbd8658fb7b24.jar" />
+    </item>
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/classes-a2b1f1a5c079bbac36a32b8a217fe1bf06e33eba.jar" />
+    </item>
+    <item
+        jar="/Users/eo_cuong/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/gson-2.3.1-efd1e0396b8d7b87c00c7647400a18f072e765e8.jar" />
+    </item>
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/libs/StartAppInApp-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0202e11e8dfc98ae44cbdb16c84ee34903efc9a0">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/StartAppInApp-2.2.0-e69b698b060c71a0c6f23ccc6d02f0a593fbc3c0.jar" />
+    </item>
+    <item
+        jar="/Users/eo_cuong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-0b07e9bd71143a5c320c32727c7f7072a08dfd53.jar" />
+    </item>
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/exploded-aar/Android Studio/holoGraphLibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d7d29b95f40ea85b462e5e653cbe06bcdc238960">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/classes-5d4cf8514e362fc7fb2acffecb32801254e3b00b.jar" />
+    </item>
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/libs/jsoup-1.7.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="872693211fd68d1c4e116cf90021603207725e19">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/jsoup-1.7.2-7be5b0dad946969a5d97e88c84cc63a26c3d4242.jar" />
+    </item>
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/classes-8cd29287d25f91a19680c01144374aa5300d139d.jar" />
+    </item>
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/classes-3d2620c8d32abb669172441eda896c8d4f00e019.jar" />
+    </item>
+    <item
+        jar="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/exploded-aar/Android Studio/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3affbede2de8452d402b7fe2e5b487dd1d643846">
+        <dex dex="/DATA/Android Project/Android Studio/haUIStudents/build/intermediates/pre-dexed/debug/classes-3c238ded8bfb28871334c06ccdb5e629ea457108.jar" />
+    </item>
+
+</items>

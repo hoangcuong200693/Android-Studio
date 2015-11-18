@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+   >
+
+    <TextView
+        android:id="@+id/tv_tendanhsach"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0002A8"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp" />
+
+    <ListView
+        android:id="@+id/listDanhsachdiem"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        
+        android:layout_below="@+id/tv_tendanhsach" >
+    </ListView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/listDanhsachdiem"
+        android:background="#000" />
+
+    <Button
+        android:id="@+id/btn_danhsach"
+        android:padding="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:background="#FFFFFF"
+        android:text="OK" />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_tensv_diemthi_theolop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#5B9BD5"
+        android:gravity="center"
+        android:text="Kết quả"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EAEFF7" >
+
+        <TextView
+            android:id="@+id/diem1_theolop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#D2DEEF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Điểm trung bình"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/diem2_theolop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#D2DEEF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+    </TableRow>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="#FFFFFF" />
+
+</LinearLayout>
